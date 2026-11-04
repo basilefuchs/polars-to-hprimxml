@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "polars-hprimxml"
+version = "0.1.0"
+description = "Convertit des DataFrames polars en messages hprimXML 2.00 (actes CCAM, états patient, PMSI)."
+readme = "README.md"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.9"
+dependencies = ["polars>=1.0"]
+
+[project.optional-dependencies]
+test = ["pytest"]
