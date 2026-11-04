@@ -8,10 +8,10 @@ Décrire l'évolution ou le bug dans une [issue](https://github.com/basilefuchs/
 
 ## 2. Créer une branche dédiée
 
-Une branche par issue, créée depuis `main`. Son nom commence par le numéro de l'issue, suivi d'un résumé court :
+Une branche par issue, créée depuis `dev`. Son nom commence par le numéro de l'issue, suivi d'un résumé court :
 
 ```bash
-git switch main
+git switch dev
 git pull
 git switch -c 12-actes-ngap
 ```
@@ -20,8 +20,8 @@ Le lien « Create a branch » de l'issue sur GitHub donne le même format.
 
 ## 3. Ouvrir une pull request
 
-- Cible : `main`.
-- La description cite l'issue avec `Closes #12` : l'issue se ferme à la fusion.
+- Cible : `dev`.
+- La description cite l'issue avec `Closes #12`.
 - Les tests passent, depuis la racine du dépôt :
 
 ```bash
