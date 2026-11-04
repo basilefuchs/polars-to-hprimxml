@@ -8,8 +8,13 @@ version = "0.1.0"
 description = "Convertit des DataFrames polars en messages hprimXML 2.00 (actes CCAM, états patient, PMSI)."
 readme = "README.md"
 license = "GPL-3.0-or-later"
+authors = [{ name = "Basile Fuchs" }]
 requires-python = ">=3.9"
 dependencies = ["polars>=1.0"]
+
+[project.urls]
+Repository = "https://github.com/basilefuchs/polars-to-hprimxml"
+Issues = "https://github.com/basilefuchs/polars-to-hprimxml/issues"
 
 [project.optional-dependencies]
 test = ["pytest"]

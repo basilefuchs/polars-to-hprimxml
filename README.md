@@ -12,10 +12,8 @@ C'est le chemin inverse de [pyhprimxml](https://github.com/GuillaumePressiat/pyh
 
 ## Installation
 
-Depuis le dossier décompressé :
-
 ```bash
-pip install ./polars-hprimxml
+pip install polars-hprimxml
 ```
 
 Python ≥ 3.9. Seule dépendance : polars ≥ 1.0.
