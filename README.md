@@ -1,4 +1,4 @@
-# polars-hprimxml
+# polars-to-hprimxml
 
 Convertit un DataFrame [polars](https://pola.rs) en messages [hprimXML](https://www.interopsante.org/hprim) 2.00 :
 
@@ -13,7 +13,7 @@ C'est le chemin inverse de [pyhprimxml](https://github.com/GuillaumePressiat/pyh
 ## Installation
 
 ```bash
-pip install polars-hprimxml
+pip install polars-to-hprimxml
 ```
 
 Python ≥ 3.9. Seule dépendance : polars ≥ 1.0.
@@ -312,7 +312,7 @@ Identifiants `recepteur` ; attributs `etat`, `portee` et `referent` des identifi
 ## Tests
 
 ```bash
-cd polars-hprimxml
+cd polars-to-hprimxml
 pip install -e ".[test]"
 pytest
 ```
