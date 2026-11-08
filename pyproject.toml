@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "polars-to-hprimxml"
-version = "0.1.1"
+version = "0.1.2"
 description = "Convertit des DataFrames polars en messages hprimXML 2.00 (actes CCAM, états patient, PMSI)."
 readme = "README.md"
 license = "GPL-3.0-or-later"

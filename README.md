@@ -1,12 +1,20 @@
 # polars-to-hprimxml
 
+> **Dépôt archivé, package non maintenu.** Utilisez [pyhprimxml](https://github.com/GuillaumePressiat/pyhprimxml) de Guillaume Pressiat : depuis sa version 0.2.0, il écrit aussi les messages hprimXML (actes CCAM, états patient, PMSI) depuis des DataFrames polars, avec validation XSD, et il les relit.
+>
+> ```bash
+> pip install git+https://github.com/GuillaumePressiat/pyhprimxml
+> ```
+>
+> Voir son guide [Écrire depuis des tables](https://github.com/GuillaumePressiat/pyhprimxml/blob/main/doc/guide/ecriture.md).
+>
+> Les messages produits par polars-to-hprimxml ne sont pas conformes aux XSD hprimXML 2.00.
+
 Convertit un DataFrame [polars](https://pola.rs) en messages [hprimXML](https://www.interopsante.org/hprim) 2.00 :
 
 - actes CCAM (`evenementsServeurActes`) ;
 - états patient (`evenementsServeurEtatsPatient`) ;
 - PMSI (`evenementsPMSI`).
-
-C'est le chemin inverse de [pyhprimxml](https://github.com/GuillaumePressiat/pyhprimxml), qui lit ces fichiers.
 
 > **Sans garantie.** Les messages ne sont pas validés contre les XSD hprimXML : vérifiez-les avec votre logiciel récepteur.
 
