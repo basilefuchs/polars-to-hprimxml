@@ -8,7 +8,7 @@
 >
 > Voir son guide [Écrire depuis des tables](https://github.com/GuillaumePressiat/pyhprimxml/blob/main/doc/guide/ecriture.md).
 >
-> Les messages produits par polars-to-hprimxml 0.1.1 ne sont pas conformes aux XSD hprimXML 2.00.
+> Les messages produits par polars-to-hprimxml ne sont pas conformes aux XSD hprimXML 2.00.
 
 Convertit un DataFrame [polars](https://pola.rs) en messages [hprimXML](https://www.interopsante.org/hprim) 2.00 :
 
